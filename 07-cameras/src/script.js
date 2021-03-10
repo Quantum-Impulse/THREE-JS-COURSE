@@ -38,12 +38,18 @@ const mesh = new THREE.Mesh(
 scene.add(mesh)
 
 // Camera
+<<<<<<< HEAD
 const camera = new THREE.PerspectiveCamera(75, sizes.width / sizes.height)
 // const aspectRatio = sizes.width / sizes.height
 // console.log(aspectRatio)
 // const camera = new THREE.OrthographicCamera( -1 * aspectRatio, 1 * aspectRatio, 1, -1, 0.1, 100)
 // camera.position.x = 2
 // camera.position.y = 2
+=======
+const camera = new THREE.PerspectiveCamera(80, sizes.width / sizes.height)
+camera.position.x = 2
+camera.position.y = 2
+>>>>>>> 12ac9d394cedf1e9a3486175f70ed8a1494a60ff
 camera.position.z = 2
 camera.lookAt(mesh.position)
 scene.add(camera)
