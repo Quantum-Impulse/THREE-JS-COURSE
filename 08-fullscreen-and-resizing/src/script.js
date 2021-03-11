@@ -43,6 +43,7 @@ window.addEventListener('resize', () =>
    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
 })
 
+// handling of fullscreen
 window.addEventListener('dblclick', () =>
 {
     const fullscreenElement = document.fullscreenElement || document.webkit.fullscreenElement
