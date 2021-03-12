@@ -5,8 +5,9 @@ import { NearestFilter, Texture } from 'three'
 
 /**
  * Textures
- *  - use tinypng to make textures lighter so website can loader faster and improve user experience
- *  - be mindful of GPU usage for otompized experience 
+ *  - Use tinypng to make textures lighter so website can loader faster and improve user experience
+ *  - Be mindful of GPU usage for otompized experience. 
+ *  - Texture's width & height should be to the power of 2 to improve mipmapping (512x512 , 1024x1024)
  *  - https://tinypng.com/
  */
 const loadingManager = new THREE.LoadingManager()
