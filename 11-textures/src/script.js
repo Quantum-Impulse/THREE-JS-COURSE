@@ -8,6 +8,8 @@ import { NearestFilter, Texture } from 'three'
  *  - Use tinypng to make textures lighter so website can loader faster and improve user experience
  *  - Be mindful of GPU usage for otompized experience. 
  *  - Texture's width & height should be to the power of 2 to improve mipmapping (512x512 , 1024x1024)
+ *  - Texture's can be found online or you can create them with software like https://www.substance3d.com/products/substance-designer/ \
+ *    & https://spline.design/ 
  *  - https://tinypng.com/
  */
 const loadingManager = new THREE.LoadingManager()
