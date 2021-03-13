@@ -69,10 +69,14 @@ const scene = new THREE.Scene()
 const material = new THREE.MeshStandardMaterial()
 material.metalness = 0.45
 material.roughness = 0.65
+material.map = doorColorTexture
+material.aoMap = doorAmbientOcclusionTexture
+material.aoMapIntensity = 1
+material.displacementMap = doorHeightTexture
 
 gui.add(material, 'metalness').min(0).max(1).step(0.0001)
 gui.add(material, 'roughness').min(0).max(1).step(0.0001)
-material.map = doorColorTexture
+gui.add(material, 'aoMapIntensity').min(0).max(10).step(0.0001)
 
 const sphere = new THREE.Mesh(
     new THREE.SphereBufferGeometry(0.5, 16, 16),
