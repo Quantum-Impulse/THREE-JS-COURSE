@@ -13,6 +13,7 @@ const gui = new dat.GUI()
  * Texture
  */
 const textureLoader = new THREE.TextureLoader()
+const cubeTextureLoader = new THREE.CubeTextureLoader()
 
 const doorColorTexture = textureLoader.load('/textures/door/color.jpg')
 const doorAlphaTexture = textureLoader.load('/textures/door/alpha.jpg')
@@ -26,6 +27,18 @@ const gradientTexture = textureLoader.load('/textures/gradients/3.jpg')
 gradientTexture.minFilter = THREE.NearestFilter
 gradientTexture.magFilter = THREE.NearestFilter
 gradientTexture.generateMipmaps = false
+
+
+// for more environment maps go to https://hdrihaven.com/ then use
+// https://matheowis.github.io/HDRI-to-CubeMap/ to convert it
+const environmentMapTexture = cubeTextureLoader.load([
+    '/textures/environmentMaps/4/px.png',
+    '/textures/environmentMaps/4/nx.png',
+    '/textures/environmentMaps/4/py.png',
+    '/textures/environmentMaps/4/ny.png',
+    '/textures/environmentMaps/4/pz.png',
+    '/textures/environmentMaps/4/nz.png'
+])
 
 /**
  * Base
@@ -66,22 +79,26 @@ const scene = new THREE.Scene()
 // const material = new THREE.MeshToonMaterial()
 // material.gradientMap = gradientTexture
 
-const material = new THREE.MeshStandardMaterial()
-material.metalness = 0.45
-material.roughness = 0.65
-material.map = doorColorTexture
-material.aoMap = doorAmbientOcclusionTexture
-material.aoMapIntensity = 1
-material.displacementMap = doorHeightTexture
-material.displacementScale = 0.05
-material.metalnessMap = doorMetalnessTexture 
-material.roughnessMap = doorRoughnessTexture
-material.normalMap = doorNormalTexture
-material.normalScale.set(0.9, 0.9)
-material.transparent = true
-material.alphaMap = doorAlphaTexture
+// const material = new THREE.MeshStandardMaterial()
+// material.metalness = 0.45
+// material.roughness = 0.65
+// material.map = doorColorTexture
+// material.aoMap = doorAmbientOcclusionTexture
+// material.aoMapIntensity = 1
+// material.displacementMap = doorHeightTexture
+// material.displacementScale = 0.05
+// material.metalnessMap = doorMetalnessTexture 
+// material.roughnessMap = doorRoughnessTexture
+// material.normalMap = doorNormalTexture
+// material.normalScale.set(0.9, 0.9)
+// material.transparent = true
+// material.alphaMap = doorAlphaTexture
 // material.wireframe = true
 
+const material = new THREE.MeshStandardMaterial()
+material.metalness = 0.7
+material.roughness = 0.2
+material.envMap = environmentMapTexture
 
 gui.add(material, 'metalness').min(0).max(1).step(0.0001)
 gui.add(material, 'roughness').min(0).max(1).step(0.0001)
