@@ -29,6 +29,7 @@ const textureLoader = new THREE.TextureLoader()
 
 /**
  * Fonts
+ *  - must be download to be used like in the static folder
  */
  const fontLoader = new THREE.FontLoader()
 
