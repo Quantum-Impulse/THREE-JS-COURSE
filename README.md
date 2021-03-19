@@ -66,7 +66,6 @@ The following tools were used in this project:
 
 ## :white_check_mark: Requirements ##
 
-Before starting :checkered_flag:, you need to have all the technologies installed and have a differential-drive robot(tank drive) equiped with NEO spark maxes and a NavX mxp. The encoders—the neo spark max have encoders on them—need to be on each side of the drivetrain.
 
 ## :checkered_flag: Starting ##
 
