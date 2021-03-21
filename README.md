@@ -1,6 +1,6 @@
 # THREE-JS-COURSE
 <div align="center" id="top"> 
-  <img src="Static\Lesson 14 Light Final Product.png" alt="YouGotNoDrip" />
+  <img src="Static\Lesson 14 Light Final Product.png" alt="3D Models with Lighting" />
 
   &#xa0;
 
