@@ -1,41 +1,24 @@
 # THREE-JS-COURSE
 <div align="center" id="top"> 
-  <img src="Images/DripGoku.png" alt="YouGotNoDrip" />
+  <img src="Static\Lesson 14 Light Final Product.png" alt="YouGotNoDrip" />
 
   &#xa0;
 
   <!-- <a href="https://{{app_url}}.netlify.app">Demo</a> -->
 </div>
 
-<h1 align="center">Auto Sample For 2020/2021</h1>
-
-<p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{github}}/{{repository}}?color=56BEB8">
-
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/{{github}}/{{repository}}?color=56BEB8">
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/{{github}}/{{repository}}?color=56BEB8">
-
-  <img alt="License" src="https://img.shields.io/github/license/{{github}}/{{repository}}?color=56BEB8">
-
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/{{github}}/{{repository}}?color=56BEB8" /> -->
-
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/{{github}}/{{repository}}?color=56BEB8" /> -->
-
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/{{github}}/{{repository}}?color=56BEB8" /> -->
-</p>
+<h1 align="center">3 JS Course Lesson Projects  </h1>
 
 <!-- Status -->
 
 <h4 align="center"> 
-	🚧 Auto Sample For 2020/2021 🚀 Under construction...  🚧
+	🚧 Course Finshed Lesson Plans 🚀 Under construction...  🚧
 </h4> 
 
 <hr> 
 
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
-  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
@@ -48,15 +31,15 @@
 
 ## :dart: About ##
 
-To much drip and ice :
-
-## :sparkles: Features ##
-
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+This Repo is for storage purposes so that other people wanting to learn 3 js can easily understand in chunk sized peices. I will soon add a shopify intergration for those intrested in ecommerce.
 
 ## :rocket: Technologies ##
+
+:heavy_check_mark: WebPack \
+:heavy_check_mark: Node.js \
+:heavy_check_mark: 3.js    \
+:heavy_check_mark: dat.gui    
+
 
 The following tools were used in this project:
 
@@ -67,25 +50,8 @@ The following tools were used in this project:
 ## :white_check_mark: Requirements ##
 
 
-## :checkered_flag: Starting ##
-
-```bash
-# Clone this project
-$ git clone https://github.com/{{github}}/{{repository}}
-
-# Access
-$ cd {{repository}}
-
-# Install dependencies
-$ yarn
-
-# Run the project
-$ yarn start
-
-# The server will initialize in the <http://localhost:3000>
-```
-
 ## :memo: Notes ##
+
 
 ## :memo: License ##
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
