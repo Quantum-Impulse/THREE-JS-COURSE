@@ -31,7 +31,7 @@
 
 ## :dart: About ##
 
-This Repo is for storage purposes so that other people wanting to learn 3 js can easily understand in chunk sized peices. I will soon add a shopify intergration for those intrested in ecommerce.
+This Repo is for storage purposes so that other people wanting to learn 3 js can easily understand in chunk sized pieces. I will soon add a shopify intergration for those intrested in ecommerce.
 
 ## :rocket: Technologies ##
 
