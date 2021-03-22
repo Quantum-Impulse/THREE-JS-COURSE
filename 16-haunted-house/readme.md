@@ -1,5 +1,7 @@
 # Three.js Journey
 
+<img src="img done 16.png" alt="3D Models with Lighting" />
+
 ## Setup
 Download [Node.js](https://nodejs.org/en/download/).
 Run this followed commands:
