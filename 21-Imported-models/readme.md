@@ -1,5 +1,9 @@
 # Three.js Journey
 
+## Screenshot
+
+<img src="21 picture.png" alt="3D Model" />
+
 ## Setup
 Download [Node.js](https://nodejs.org/en/download/).
 Run this followed commands:
